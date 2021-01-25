@@ -8,7 +8,7 @@ class Supplier(models.Model):
     phone = models.CharField(max_length=12, unique=True)
     address = models.CharField(max_length=200)
     email = models.EmailField(max_length=254, unique=True)
-    gstin = models.CharField(max_length=15, unique=True)
+    pan = models.CharField(max_length=15, unique=True)
     is_deleted = models.BooleanField(default=False)
 
     def __str__(self):
@@ -74,7 +74,7 @@ class SaleBill(models.Model):
     phone = models.CharField(max_length=12)
     address = models.CharField(max_length=200)
     email = models.EmailField(max_length=254)
-    gstin = models.CharField(max_length=15)
+    pan = models.CharField(max_length=15)
 
     def __str__(self):
 	    return "Bill no: " + str(self.billno)
