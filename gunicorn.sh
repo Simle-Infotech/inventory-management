@@ -1,8 +1,8 @@
 NAME='inventory'                                      # Name of the application
 DJANGODIR=/media/main_storage/anup/inventory-management/   # Django project directory
 SOCKFILE=/media/main_storage/anup/inventory-management/run/gunicorn_jalpa.sock  # we will communicte using this unix socket
-USER=nsdev # the user to run as
-GROUP=nsdev # the group to run as
+USER=anupadkh # the user to run as
+GROUP=anupadkh # the group to run as
 NUM_WORKERS=3                                       # how many worker processes should Gunicorn spawn
 DJANGO_SETTINGS_MODULE=core.settings     # which settings file should Django use
 DJANGO_WSGI_MODULE=core.wsgi             # WSGI module name
