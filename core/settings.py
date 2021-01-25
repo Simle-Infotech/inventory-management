@@ -141,3 +141,5 @@ LOGIN_REQUIRED_IGNORE_VIEW_NAMES = [                    # urls ignored by the lo
     'logout',
     'about',
 ]
+
+STATIC_ROOT = os.join(BASE_DIR, 'static')
