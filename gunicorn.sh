@@ -12,7 +12,7 @@ LOG=/media/main_storage/anup/inventory-management/logs/inventory.log
 # Activate the virtual environment
 
 cd $DJANGODIR
-source /media/main_storage/anup/venvInventory/activate
+source /media/main_storage/anup/venvInventory/bin/activate
 # /home/nsdev/.virtualenvs/image-classifier/bin/activate
 export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
 export PYTHONPATH=$DJANGODIR:$PYTHONPATH
